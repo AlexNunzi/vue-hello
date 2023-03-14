@@ -10,8 +10,9 @@
     <body>
         <main>
             <div id="app">
-                <img id="logo" :src="img" :alt="imgDescription" />
-                <h1>{{welcome}}</h1>
+                <img id="logo" @click="upgrade" :src="img" :alt="imgDescription" />
+                <h1 :class="classi">{{welcome}}</h1>
+                <p class="userInfo">{{userInfo}}</p>
             </div>
         </main>
 

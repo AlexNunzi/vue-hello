@@ -6,7 +6,9 @@
 
 :root{
     --bg-main: #282828;
-    --title: #41B783;
+    --title-vue: #41B783;
+    --title-js: #BFA01A;
+    --white: #ffffff;
 }
 
 body{
@@ -29,5 +31,18 @@ main{
 }
 
 h1{
-    color: var(--title);
+    margin-bottom: 2rem;
+}
+
+.userInfo{
+    color: var(--white);
+    font-size: 32px;
+}
+
+.text-vue{
+    color: var(--title-vue);
+}
+
+.text-js{
+    color: var(--title-js);
 }
