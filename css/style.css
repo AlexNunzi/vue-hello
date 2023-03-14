@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --bg-main: #282828;
+    --title: #41B783;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: var(--bg-main);
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: var(--title);
+}
