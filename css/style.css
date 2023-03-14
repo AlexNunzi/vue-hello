@@ -19,6 +19,13 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+#logo{
+    width: 120px;
+    height: 104px;
+    margin-bottom: 16px;
 }
 
 h1{
